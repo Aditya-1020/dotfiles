@@ -202,8 +202,11 @@ exec --no-startup-id blueman-applet # bluetooth manager icon on system tray
 
 exec --no-startup-id feh --bg-scale /home/link/Pictures/serial_lane_wallpaper.png # set-wallpaper for i3
 
-# Lock screen with i3lock
-bindsym $mod+Shift+x exec i3lock -c 000000
+# i3lock Lock screen with background image 
+bindsym $mod+Shift+x exec --no-startup-id i3lock -i /home/link/Pictures/lockscreen_scaled.png
+
+# i3lock lock screen without background image
+# bindsym $mod+Shift+x exec i3lock -c 000000
 
 # Suspend system
 bindsym $mod+Shift+z exec systemctl suspend
