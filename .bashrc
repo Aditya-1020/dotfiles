@@ -115,3 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+xinput set-prop 11 "libinput Natural Scrolling Enabled" 1 2>/dev/null
