@@ -138,6 +138,14 @@
     {
         "fallback": false,
         "iconPath": ":default",
+        "id": "e140656e",
+        "name": "Thread Reader",
+        "trigger": "unroll",
+        "url": "https://threadreaderapp.com/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
         "id": "09bee5d1",
         "name": "Twitter",
         "trigger": "x",
