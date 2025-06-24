@@ -3,7 +3,7 @@ decorations = "none"
 startup_mode = "Maximized"
 
 [font]
-size = 15.0
+size = 17.0
 
 [colors.primary]
 background = "#000000"
